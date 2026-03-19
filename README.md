@@ -35,7 +35,7 @@ YourName_USN/
 * Example:
 
   ```
-  Varun_Aditya_1RV24IS143
+  Kruthi_Krishna_1RV24IS001
   ```
 
 ⚠️ Incorrect naming or structure may lead to your submission being ignored.
@@ -67,7 +67,7 @@ For each assignment:
 
 ### 1. Fork the Repository
 
-👉 https://github.com/varunaditya27/CC-Web-Dev-Bootcamp-Submissions
+👉 https://github.com/kriidevx/CC-Web-Dev-Bootcamp-Submissions
 Click **Fork**
 
 ---
