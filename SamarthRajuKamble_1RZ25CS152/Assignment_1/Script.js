@@ -1,13 +1,29 @@
-const Tasks = document.getElementById('inputList').value;
-const DisArea = document.getElementById('Output');
+const Tasks = document.getElementById('Inputt');
+const Sub = document.getElementById('SubBut');
+const DisArea = document.getElementById('Diss');
 
-if(Tasks.trim() !== "")
-{
-    const Para = document.createElement('p');
-    Para.textContent = Tasks;
+Sub.addEventListener('click', (event) => {
 
-    DisArea.appendChild(Para);
-}
-else{
-    alert("Please enter some text!");
-}
+    event.preventDefault()
+
+    const TaskText = Tasks.value;
+
+    if(TaskText.trim() !== "")
+    {
+        const Para = document.createElement('li');
+        const checkboxx = document.createElement('input');
+        Para.textContent = TaskText;
+        checkboxx.type = 'checkbox';
+
+        //Para.appendChild(Para);
+        Para.append(" ");
+        Para.appendChild(checkboxx);
+
+        DisArea.appendChild(Para);
+
+        //Tasks.value = "";
+    }
+    else{
+        alert("Please enter some text!");
+    }
+});
